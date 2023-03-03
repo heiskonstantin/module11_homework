@@ -4,9 +4,7 @@
 
 // На этот раз оформите решение в виде функции: постарайтесь дать этой функции корректное название, вызовите функцию, проанализируйте синтаксис.
 
-let arr = [1, 0, null, 4, 5, 6, 7, 8, 9, 10, "hello world!", NaN];
-
-function showTypeOfElement() {
+function showTypeOfElement(arr) {
   let odd = 0;
   let even = 0;
 
@@ -29,4 +27,4 @@ function showTypeOfElement() {
   console.log(`в массиве содержится ${odd} нечётных числа и ${even} четных`);
 }
 
-showTypeOfElement();
+showTypeOfElement([1, 0, null, 4, 5, 6, 7, 8, 9, 10, "hello world!", NaN]);
